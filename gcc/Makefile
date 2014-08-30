@@ -20,8 +20,8 @@ MAKE_ADA=	No
 MASTER_SITES= 	${MASTER_SITE_GCC:=releases/gcc-$(VERSION)/}
 
 BUILD_DEPENDS+=	devel/autoconf/2.13	\
-		devel/bison				\
-		devel/metaauto				\
+		devel/bison		\
+		devel/metaauto		\
 		devel/arm-none-eabi/binutils
 
 LIB_DEPENDS=	devel/mpfr
@@ -46,7 +46,7 @@ SEPARATE_BUILD=	Yes
 USE_GMAKE=	Yes
 YACC=		bison
 
-REGRESS_DEPENDS=devel/dejagnu
+TEST_DEPENDS=	devel/dejagnu
 
 post-install:
 	chown -R ${SHAREOWN}:${SHAREGRP} \

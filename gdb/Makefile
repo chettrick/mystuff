@@ -16,10 +16,10 @@ USE_GMAKE=	Yes
 
 CFLAGS+=	-Dunix
 
-CONFIGURE_ARGS+=	--enable-multilib \
-			--enable-thumb \
-			--enable-interwork
+CONFIGURE_ARGS+=--enable-multilib	\
+		--enable-thumb		\
+		--enable-interwork
 
-REGRESS_DEPENDS=devel/dejagnu
+TEST_DEPENDS=	devel/dejagnu
 
 .include <bsd.port.mk>
