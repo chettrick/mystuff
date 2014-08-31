@@ -2,8 +2,8 @@
 
 COMMENT=	gdb for arm-none-eabi cross-development
 
-DISTNAME=	gdb-7.1
-REVISION=	0
+VERSION=	7.7
+DISTNAME=	gdb-${VERSION}
 
 HOMEPAGE=	http://www.gnu.org/software/gdb/
 

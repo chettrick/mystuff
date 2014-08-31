@@ -2,7 +2,8 @@
 
 COMMENT=	newlib for arm-none-eabi cross-development
 
-DISTNAME=	newlib-1.18.0
+VERSION=	2.1.0
+DISTNAME=	newlib-${VERSION}
 # BROKEN-amd64 =	as: unrecognized option -mfpu=softfpa
 
 HOMEPAGE=	http://sourceware.org/newlib/

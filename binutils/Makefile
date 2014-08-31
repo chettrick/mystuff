@@ -2,9 +2,8 @@
 
 COMMENT=	binutils for arm-none-eabi cross-development
 
-V=		2.20
-REVISION=	1
-DISTNAME=	binutils-${V}
+VERSION=	2.24
+DISTNAME=	binutils-${VERSION}
 
 HOMEPAGE=	https://www.gnu.org/software/binutils/
 
