@@ -2,9 +2,11 @@
 
 COMMENT=	gcc for arm-none-eabi cross-development
 
-VERSION=	4.8.2
+VERSION=	4.9.1
 DISTNAME=	gcc-${VERSION}
 PKGNAME=	${CONFIG}-gcc-${VERSION}
+
+HOMEPAGE=	https://gcc.gnu.org
 
 SUBST_VARS+=	VERSION
 
@@ -19,18 +21,17 @@ MAKE_ADA=	No
 
 MASTER_SITES= 	${MASTER_SITE_GCC:=releases/gcc-$(VERSION)/}
 
-BUILD_DEPENDS+=	devel/autoconf/2.69	\
+BUILD_DEPENDS+=	devel/autoconf/2.64	\
 		devel/bison		\
 		devel/metaauto		\
 		devel/arm-none-eabi/binutils
 
-LIB_DEPENDS=	devel/gmp>=4.2	\
-		devel/mpfr	\
-		devel/libmpc
+LIB_DEPENDS=	devel/gmp>=4.3.2	\
+		devel/mpfr>=2.4.2	\
+		devel/libmpc>=0.8.1
 
 LANGS=		c,c++
-#CC=		/usr/bin/gcc
-CC=		/usr/local/bin/i386-unknown-openbsd5.6-gcc-4.8.3
+CC=		/usr/bin/gcc
 CFLAGS=		-O2 -g
 
 CONFIGURE_ARGS+=--enable-languages=${LANGS}	\

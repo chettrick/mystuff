@@ -2,10 +2,10 @@
 
 COMMENT=	gdb for arm-none-eabi cross-development
 
-VERSION=	7.7
+VERSION=	7.8
 DISTNAME=	gdb-${VERSION}
 
-HOMEPAGE=	http://www.gnu.org/software/gdb/
+HOMEPAGE=	https://www.gnu.org/software/gdb/
 
 WANTLIB=	c expat m ncurses z
 
