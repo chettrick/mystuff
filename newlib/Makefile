@@ -6,7 +6,7 @@ VERSION=	2.1.0
 DISTNAME=	newlib-${VERSION}
 # BROKEN-amd64 =	as: unrecognized option -mfpu=softfpa
 
-HOMEPAGE=	http://sourceware.org/newlib/
+HOMEPAGE=	https://sourceware.org/newlib/
 
 MASTER_SITES=	ftp://sources.redhat.com/pub/newlib/
 
