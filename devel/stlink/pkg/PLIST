@@ -1,0 +1,8 @@
+@comment $OpenBSD$
+bin/st-flash
+bin/st-info
+bin/st-term
+bin/st-util
+share/doc/stlink/
+share/doc/stlink/README
+share/doc/stlink/tutorial.pdf
