@@ -1,0 +1,58 @@
+@comment $OpenBSD: PLIST,v 1.2 2010/10/22 15:19:28 jasper Exp $
+@bin bin/${MACHINE_ARCH}-jos-elf-addr2line
+@bin bin/${MACHINE_ARCH}-jos-elf-ar
+@bin bin/${MACHINE_ARCH}-jos-elf-as
+@bin bin/${MACHINE_ARCH}-jos-elf-c++filt
+@bin bin/${MACHINE_ARCH}-jos-elf-gprof
+@bin bin/${MACHINE_ARCH}-jos-elf-ld
+@bin bin/${MACHINE_ARCH}-jos-elf-nm
+@bin bin/${MACHINE_ARCH}-jos-elf-objcopy
+@bin bin/${MACHINE_ARCH}-jos-elf-objdump
+@bin bin/${MACHINE_ARCH}-jos-elf-ranlib
+@bin bin/${MACHINE_ARCH}-jos-elf-readelf
+@bin bin/${MACHINE_ARCH}-jos-elf-size
+@bin bin/${MACHINE_ARCH}-jos-elf-strings
+@bin bin/${MACHINE_ARCH}-jos-elf-strip
+${MACHINE_ARCH}-jos-elf/
+${MACHINE_ARCH}-jos-elf/bin/
+@bin ${MACHINE_ARCH}-jos-elf/bin/ar
+@bin ${MACHINE_ARCH}-jos-elf/bin/as
+@bin ${MACHINE_ARCH}-jos-elf/bin/ld
+@bin ${MACHINE_ARCH}-jos-elf/bin/nm
+@bin ${MACHINE_ARCH}-jos-elf/bin/objcopy
+@bin ${MACHINE_ARCH}-jos-elf/bin/objdump
+@bin ${MACHINE_ARCH}-jos-elf/bin/ranlib
+@bin ${MACHINE_ARCH}-jos-elf/bin/strip
+${MACHINE_ARCH}-jos-elf/lib/
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.x
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.xbn
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.xc
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.xd
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.xdc
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.xdw
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.xn
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.xr
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.xs
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.xsc
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.xsw
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.xu
+${MACHINE_ARCH}-jos-elf/lib/ldscripts/elf_${MACHINE_ARCH}.xw
+@man man/man1/${MACHINE_ARCH}-jos-elf-addr2line.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-ar.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-as.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-c++filt.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-dlltool.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-gprof.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-ld.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-nlmconv.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-nm.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-objcopy.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-objdump.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-ranlib.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-readelf.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-size.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-strings.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-strip.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-windmc.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-windres.1

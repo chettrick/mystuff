@@ -1,0 +1,70 @@
+@comment $OpenBSD: PLIST,v 1.4 2010/10/22 15:20:04 jasper Exp $
+@bin bin/${MACHINE_ARCH}-jos-elf-cpp
+@bin bin/${MACHINE_ARCH}-jos-elf-gcc
+@bin bin/${MACHINE_ARCH}-jos-elf-gcc-${V}
+bin/${MACHINE_ARCH}-jos-elf-gccbug
+${MACHINE_ARCH}-jos-elf/
+${MACHINE_ARCH}-jos-elf/lib/
+lib/gcc/
+lib/gcc/${MACHINE_ARCH}-jos-elf/
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/crtbegin.o
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/crtend.o
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include-fixed/
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include-fixed/README
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include-fixed/limits.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include-fixed/syslimits.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/ammintrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/avxintrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/bmmintrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/cpuid.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/cross-stdarg.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/emmintrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/float.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/immintrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/iso646.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/mm3dnow.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/mm_malloc.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/mmintrin-common.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/mmintrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/nmmintrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/pmmintrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/smmintrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/stdarg.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/stdbool.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/stddef.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/stdfix.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/tgmath.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/tmmintrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/unwind.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/varargs.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/wmmintrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/x86intrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/include/xmmintrin.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/fixinc_list
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/gsyslimits.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/include/
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/include/README
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/include/limits.h
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/macro_list
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/mkheaders.conf
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/libgcc.a
+lib/gcc/${MACHINE_ARCH}-jos-elf/${V}/libgcov.a
+libexec/gcc/
+libexec/gcc/${MACHINE_ARCH}-jos-elf/
+libexec/gcc/${MACHINE_ARCH}-jos-elf/${V}/
+@bin libexec/gcc/${MACHINE_ARCH}-jos-elf/${V}/cc1
+@bin libexec/gcc/${MACHINE_ARCH}-jos-elf/${V}/collect2
+libexec/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/
+libexec/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/fixinc.sh
+@bin libexec/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/fixincl
+libexec/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/mkheaders
+libexec/gcc/${MACHINE_ARCH}-jos-elf/${V}/install-tools/mkinstalldirs
+@man man/man1/${MACHINE_ARCH}-jos-elf-cpp.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-gcc.1
+@man man/man1/${MACHINE_ARCH}-jos-elf-gcov.1
+@comment @man man/man7/fsf-funding.7
+@comment @man man/man7/gfdl.7
+@comment @man man/man7/gpl.7
