@@ -2,4 +2,4 @@ Programmer for ST Microelectronics ST-Link V1/V2
 
 Example command to load firmware into target:
 
-	$ st-flash write file.bin 0x08000000
+	$ st-flash --reset write file.bin 0x08000000
