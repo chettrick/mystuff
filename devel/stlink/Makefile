@@ -17,7 +17,6 @@ WANTLIB=		c pthread usb-1.0
 GH_ACCOUNT=		texane
 GH_PROJECT=		stlink
 GH_TAGNAME=		${V}
-GH_COMMIT=		c722056
 
 LIB_DEPENDS=		devel/libusb1
 
@@ -25,12 +24,14 @@ CONFIGURE_STYLE=	gnu
 
 AUTOCONF_VERSION=	2.69
 AUTOMAKE_VERSION=	1.15
+BUILD_DEPENDS+=		${MODGNU_AUTOCONF_DEPENDS} \
+			${MODGNU_AUTOMAKE_DEPENDS}
 
 NO_TEST=		Yes
 
 pre-configure:
 	cd ${WRKSRC} && env AUTOCONF_VERSION=${AUTOCONF_VERSION} \
-		AUTOMAKE_VERSION=${AUTOMAKE_VERSION} ./autogen.sh
+		AUTOMAKE_VERSION=${AUTOMAKE_VERSION} /bin/sh ./autogen.sh
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/stlink
