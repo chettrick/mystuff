@@ -1,0 +1,10 @@
+Yahtzee is a simple dice-rolling game.
+
+This implementation comes with text, curses, and graphics modes.
+
+* Graphics mode needs an X display (DISPLAY environment variable set).
+* Curses mode needs a terminal (TERM environment variable set).
+* Text mode needs the other two modes to fail (no DISPLAY or TERM set).
+
+To unset an environment variable:
+	$ unset TERM

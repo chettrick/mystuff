@@ -1,0 +1,20 @@
+$OpenBSD$
+--- sdldice.c.orig	Sat Jun 25 02:10:29 2011
++++ sdldice.c	Fri Jan  1 15:49:48 2016
+@@ -4,6 +4,7 @@
+  * This program is free software. See README for details.
+  */
+ 
++#include <stdlib.h>
+ #include <math.h>
+ #include "SDL.h"
+ #include "yahtzee.h"
+@@ -132,7 +133,7 @@ static void copypip(SDL_Surface *image, int xpos, int 
+ 	for (x = 0 ; x < width ; ++x) {
+ 	    n = *p++;
+ 	    if (n <= 240)
+-		n += (int)((16.0 * rand()) / (RAND_MAX + 1.0));
++		n += (int)((16.0 * arc4random()) / (RAND_MAX + 1.0));
+ 	    setpixel(image, xpos + x, ypos + y,
+ 		     0xFF000000 | (n << 16) | (n << 8) | n);
+ 	}

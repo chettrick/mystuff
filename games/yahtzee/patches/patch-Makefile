@@ -1,0 +1,42 @@
+$OpenBSD$
+--- Makefile.orig	Wed Jun 10 21:54:58 2015
++++ Makefile	Fri Jan  1 02:44:48 2016
+@@ -4,6 +4,7 @@
+ 
+ CC = gcc
+ CFLAGS = -Wall -Wextra -Os
++CFLAGS += -Dunix
+ LDFLAGS = -Wall -Wextra -s
+ LOADLIBES =
+ OBJLIST = yahtzee.o gen.o scoring.o io.o
+@@ -22,6 +23,7 @@ OBJLIST += iocurses.o
+ # Definitions for the SDL interface.
+ # Comment out this section to remove SDL support.
+ 
++ifndef NO_SDL
+ CFLAGS += -DINCLUDE_SDL $(shell sdl-config --cflags)
+ LOADLIBES += $(shell sdl-config --libs) -lSDL_ttf -lm
+ OBJLIST += iosdl.o sdldice.o sdlbutton.o sdlslots.o sdlhelp.o
+@@ -29,9 +31,11 @@ OBJLIST += iosdl.o sdldice.o sdlbutton.o sdlslots.o sd
+ # explicit paths to the font files.
+ CFLAGS += -DFONT_MED_PATH='$(shell fc-match --format='"%{file}"' freesans)' \
+     -DFONT_BOLD_PATH='$(shell fc-match --format='"%{file}"' freesans:bold)'
++endif
+ 
+ # Dependencies.
+ 
++all: yahtzee
+ yahtzee: $(OBJLIST)
+ 
+ yahtzee.o: yahtzee.c yahtzee.h gen.h scoring.h io.h
+@@ -45,6 +49,10 @@ sdldice.o: sdldice.c iosdlctl.h yahtzee.h gen.h
+ sdlbutton.o: sdlbutton.c iosdlctl.h yahtzee.h gen.h
+ sdlslots.o: sdlslots.c iosdlctl.h yahtzee.h gen.h
+ sdlhelp.o: sdlhelp.c iosdlctl.h yahtzee.h gen.h
++
++install: all
++	@mkdir -p ${PREFIX}/bin
++	install yahtzee ${PREFIX}/bin
+ 
+ clean:
+ 	rm -f yahtzee $(OBJLIST)

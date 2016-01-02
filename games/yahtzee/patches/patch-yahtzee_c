@@ -1,0 +1,29 @@
+$OpenBSD$
+--- yahtzee.c.orig	Fri Jan  1 15:14:36 2016
++++ yahtzee.c	Fri Jan  1 15:33:31 2016
+@@ -120,7 +120,7 @@ static void rollalldice(void)
+     for (i = ctl_dice ; i < ctl_dice_end ; ++i) {
+ 	cleardisabled(controls[i]);
+ 	clearselected(controls[i]);
+-	controls[i].value = (int)((rand() * 6.0) / (double)RAND_MAX);
++	controls[i].value = (int)(arc4random_uniform(6));
+ 	setmodified(controls[i]);
+     }
+     updateopenslots();
+@@ -135,7 +135,7 @@ static void rolldice(void)
+     for (i = ctl_dice ; i < ctl_dice_end ; ++i) {
+ 	if (isselected(controls[i])) {
+ 	    clearselected(controls[i]);
+-	    controls[i].value = (int)((rand() * 6.0) / (double)RAND_MAX);
++	    controls[i].value = (int)(arc4random_uniform(6));
+ 	    setmodified(controls[i]);
+ 	}
+     }
+@@ -379,7 +379,6 @@ int main(int argc, char *argv[])
+ 	return EXIT_FAILURE;
+     }
+ 
+-    srand(time(0));
+     initcontrols();
+     initscoring();
+     initui();

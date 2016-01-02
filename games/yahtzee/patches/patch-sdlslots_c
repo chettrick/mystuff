@@ -1,0 +1,15 @@
+$OpenBSD$
+--- sdlslots.c.orig	Sat Jun 25 02:10:43 2011
++++ sdlslots.c	Fri Jan  1 16:03:26 2016
+@@ -147,9 +147,9 @@ static int updateslotimages(struct sdlcontrol *ctl)
+     char buf[16];
+ 
+     if (ctl->lastvalue < 0)
+-	sprintf(buf, " ");
++	snprintf(buf, sizeof(buf), "%s", " ");
+     else
+-	sprintf(buf, "%d", ctl->lastvalue);
++	snprintf(buf, sizeof(buf), "%d", ctl->lastvalue);
+ 
+     SDL_BlitSurface(ctl->images[s_open], NULL, ctl->images[s_over], NULL);
+     image = TTF_RenderUTF8_Shaded(font, buf, dimtextcolor, bkgndcolor);
