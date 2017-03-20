@@ -16,8 +16,10 @@ WANTLIB=		c m pthread GL
 WANTLIB+=		Qt5Core Qt5Gui Qt5Multimedia Qt5Network
 WANTLIB+=		Qt5Svg Qt5Widgets Qt5Xml
 
-LIB_DEPENDS=		x11/qt5 \
-			lang/gcc/4.6,-c++
+BUILD_DEPENDS=		lang/gcc/4.6,-c++ \
+			x11/qt5
+
+LIB_DEPENDS=		x11/qt5
 
 RUN_DEPENDS=		x11/qt5
 
