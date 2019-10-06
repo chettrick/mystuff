@@ -1,0 +1,32 @@
+$OpenBSD$
+
+Index: setup.py
+--- setup.py.orig
++++ setup.py
+@@ -183,7 +183,7 @@ c_options['use_pangoft2'] = None
+ c_options['use_ios'] = False
+ c_options['use_android'] = False
+ c_options['use_mesagl'] = False
+-c_options['use_x11'] = False
++c_options['use_x11'] = True
+ c_options['use_wayland'] = False
+ c_options['use_gstreamer'] = None
+ c_options['use_avfoundation'] = platform in ['darwin', 'ios']
+@@ -616,6 +616,9 @@ def determine_base_flags():
+             environ.get('LOCALBASE', '/usr/local'), 'include')]
+         flags['library_dirs'] += [join(
+             environ.get('LOCALBASE', '/usr/local'), 'lib')]
++    elif platform.startswith('openbsd'):
++        flags['include_dirs'] += ['/usr/X11R6/include']
++        flags['library_dirs'] += ['/usr/X11R6/lib']
+     elif platform == 'darwin':
+         v = os.uname()
+         if v[2] >= '13.0.0':
+@@ -1177,6 +1180,7 @@ if not build_examples:
+             'Operating System :: MacOS :: MacOS X',
+             'Operating System :: Microsoft :: Windows',
+             'Operating System :: POSIX :: BSD :: FreeBSD',
++            'Operating System :: POSIX :: BSD :: OpenBSD',
+             'Operating System :: POSIX :: Linux',
+             'Programming Language :: Python :: 2.7',
+             'Programming Language :: Python :: 3.4',

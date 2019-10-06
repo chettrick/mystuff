@@ -1,0 +1,15 @@
+$OpenBSD$
+
+Index: kivy/tests/test_utils.py
+--- kivy/tests/test_utils.py.orig
++++ kivy/tests/test_utils.py
+@@ -217,6 +217,9 @@ class UtilsTest(unittest.TestCase):
+     def test_Platform_freebsd(self):
+         self._test_platforms('freebsd', 'linux')
+ 
++    def test_Platform_openbsd(self):
++        self._test_platforms('openbsd', 'linux')
++
+     def test_Platform_unknown(self):
+         self._test_platforms('randomdata', 'unknown')
+ 

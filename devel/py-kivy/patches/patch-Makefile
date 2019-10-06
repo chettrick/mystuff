@@ -1,0 +1,14 @@
+$OpenBSD$
+
+Index: Makefile
+--- Makefile.orig
++++ Makefile
+@@ -15,7 +15,7 @@ BUILD_OPTS_DEBUG = $(BUILD_OPTS_FORCE) -g --cython-gdb
+ 
+ INSTALL_OPTIONS  = install
+ INSTALL_ROOT     =
+-INSTALL_PREFIX   =
++INSTALL_PREFIX   = /usr/local
+ INSTALL_LAYOUT   =
+ 
+ ifneq ($(INSTALL_ROOT),)

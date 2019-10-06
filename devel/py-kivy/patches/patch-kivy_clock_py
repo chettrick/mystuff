@@ -1,0 +1,18 @@
+$OpenBSD$
+
+Index: kivy/clock.py
+--- kivy/clock.py.orig
++++ kivy/clock.py
+@@ -432,6 +432,12 @@ try:
+                     # 12: CLOCK_MONOTONIC_FAST (FreeBSD specific)
+                     Logger.debug('clock.py: {{{:s}}} clock ID {:d}'.format(
+                         platform, _clockid))
++                elif 'openbsd' in platform:
++                    # clockid constants from sys/_time.h
++                    # _clockid = 3 # CLOCK_MONOTONIC (OpenBSD specific)
++                    _clockid = 3
++                    Logger.debug('clock.py: {{{:s}}} clock ID {:d}'.format(
++                        platform, _clockid))
+                 else:
+                     _clockid = 1  # CLOCK_MONOTONIC
+ 
