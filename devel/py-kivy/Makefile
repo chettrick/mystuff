@@ -26,12 +26,10 @@ GH_ACCOUNT =		kivy
 GH_PROJECT =		kivy
 GH_TAGNAME =		${MODPY_EGG_VERSION}
 
+MODPY_VERSION =		${MODPY_DEFAULT_VERSION_3}
 MODPY_PI =		No
 MODPY_SETUPTOOLS =	Yes
 MODPY_PYTEST =		No
-
-FLAVORS =		python3
-FLAVOR ?=		python3
 
 LIB_DEPENDS +=		devel/sdl2 \
 			devel/sdl2-image \
