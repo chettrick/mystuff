@@ -5,10 +5,10 @@ ONLY_FOR_ARCHS=	i386 amd64 sparc64
 
 COMMENT=        ANother Tool for Language Recognition
 
-V=		3.4
+V=		3.5.2
 DISTNAME=	antlr-${V}-complete
 PKGNAME=	antlr3-${V}
-REVISION=	2
+#REVISION=	2
 
 CATEGORIES=	lang java
 
