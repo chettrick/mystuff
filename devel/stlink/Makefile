@@ -10,13 +10,13 @@ CATEGORIES=		devel
 HOMEPAGE=		https://github.com/texane/stlink
 
 # BSD
-PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE=		Yes
 
 WANTLIB=		c pthread usb-1.0
 
 GH_ACCOUNT=		texane
 GH_PROJECT=		stlink
-GH_TAGNAME=		${V}
+GH_TAGNAME=		v${V}
 
 LIB_DEPENDS=		devel/libusb1
 
