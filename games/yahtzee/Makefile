@@ -4,14 +4,14 @@ COMMENT=	yahtzee with text, curses, and graphical modes
 DISTNAME=	yahtzee-1.6
 CATEGORIES=	games
 
-HOMEPAGE=	http://www.muppetlabs.com/~breadbox/software/yahtzee.html
+HOMEPAGE=	https://www.muppetlabs.com/~breadbox/software/yahtzee.html
 
 # MIT
-PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE=	Yes
 
 WANTLIB=	c ncurses
 
-MASTER_SITES=	http://www.muppetlabs.com/~breadbox/pub/software/
+MASTER_SITES=	https://www.muppetlabs.com/~breadbox/pub/software/
 
 FLAVORS=	no_x11
 FLAVOR?=
