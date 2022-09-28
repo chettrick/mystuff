@@ -12,8 +12,8 @@ lib/gcc/${CONFIG}/${GCC_VERSION}/ilp32/crtend.o
 lib/gcc/${CONFIG}/${GCC_VERSION}/ilp32/crtfastmath.o
 lib/gcc/${CONFIG}/${GCC_VERSION}/ilp32/crti.o
 lib/gcc/${CONFIG}/${GCC_VERSION}/ilp32/crtn.o
-lib/gcc/${CONFIG}/${GCC_VERSION}/ilp32/libgcc.a
-lib/gcc/${CONFIG}/${GCC_VERSION}/ilp32/libgcov.a
+@static-lib lib/gcc/${CONFIG}/${GCC_VERSION}/ilp32/libgcc.a
+@static-lib lib/gcc/${CONFIG}/${GCC_VERSION}/ilp32/libgcov.a
 lib/gcc/${CONFIG}/${GCC_VERSION}/include/
 lib/gcc/${CONFIG}/${GCC_VERSION}/include-fixed/
 lib/gcc/${CONFIG}/${GCC_VERSION}/include-fixed/README
@@ -45,5 +45,5 @@ lib/gcc/${CONFIG}/${GCC_VERSION}/install-tools/include/README
 lib/gcc/${CONFIG}/${GCC_VERSION}/install-tools/include/limits.h
 lib/gcc/${CONFIG}/${GCC_VERSION}/install-tools/macro_list
 lib/gcc/${CONFIG}/${GCC_VERSION}/install-tools/mkheaders.conf
-lib/gcc/${CONFIG}/${GCC_VERSION}/libgcc.a
-lib/gcc/${CONFIG}/${GCC_VERSION}/libgcov.a
+@static-lib lib/gcc/${CONFIG}/${GCC_VERSION}/libgcc.a
+@static-lib lib/gcc/${CONFIG}/${GCC_VERSION}/libgcov.a

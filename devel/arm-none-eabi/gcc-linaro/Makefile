@@ -9,14 +9,17 @@ VERSION=	7.4-2019.02
 DISTNAME=	gcc-linaro-${VERSION}
 EXTRACT_SUFX=	.tar.xz
 PKGNAME=	${CONFIG}-gcc-linaro-${VERSION:S/-/./g}
+REVISION=	1
 
 FLAVORS=	aarch64 arm
 FLAVOR?=	arm
 
 .if "${FLAVOR}" == "aarch64"
 CONFIG=		aarch64-none-elf
+MULTILIB=	default
 .elif "${FLAVOR}" == "arm"
 CONFIG=		arm-none-eabi
+MULTILIB=	rmprofile
 .else
 ERRORS+=	"either aarch64 or arm FLAVOR should be set"
 .endif
@@ -61,6 +64,7 @@ CFLAGS=		-O2 -g
 
 CONFIGURE_ARGS+=--enable-languages=${LANGS}	\
 		--enable-multilib		\
+		--with-multilib-list=${MULTILIB} \
 		--enable-interwork		\
 		--with-gmp=${LOCALBASE}		\
 		--with-newlib			\
@@ -82,7 +86,7 @@ TEST_DEPENDS=devel/dejagnu
 
 post-install:
 	chown -R ${SHAREOWN}:${SHAREGRP} \
-		${PREFIX}/lib/gcc/${CONFIG}/${VERSION}/
+		${PREFIX}/lib/gcc/${CONFIG}/${GCC_VERSION}/
 
 .include <bsd.port.mk>
 

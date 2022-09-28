@@ -9,6 +9,7 @@
 @bin bin/${CONFIG}-gcc-ar
 @bin bin/${CONFIG}-gcc-nm
 @bin bin/${CONFIG}-gcc-ranlib
+lib/gcc/
 libexec/gcc/
 libexec/gcc/${CONFIG}/
 libexec/gcc/${CONFIG}/${GCC_VERSION}/
