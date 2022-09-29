@@ -113,95 +113,41 @@ arm-none-eabi/lib/aprofile-ve.specs
 arm-none-eabi/lib/cpu-init/
 arm-none-eabi/lib/cpu-init/rdimon-aem.o
 arm-none-eabi/lib/crt0.o
-arm-none-eabi/lib/fpu/
-arm-none-eabi/lib/fpu/aprofile-validation.specs
-arm-none-eabi/lib/fpu/aprofile-ve.specs
-arm-none-eabi/lib/fpu/cpu-init/
-arm-none-eabi/lib/fpu/cpu-init/rdimon-aem.o
-arm-none-eabi/lib/fpu/crt0.o
-arm-none-eabi/lib/fpu/interwork/
-arm-none-eabi/lib/fpu/interwork/aprofile-validation.specs
-arm-none-eabi/lib/fpu/interwork/aprofile-ve.specs
-arm-none-eabi/lib/fpu/interwork/cpu-init/
-arm-none-eabi/lib/fpu/interwork/cpu-init/rdimon-aem.o
-arm-none-eabi/lib/fpu/interwork/crt0.o
-arm-none-eabi/lib/fpu/interwork/iq80310.specs
-arm-none-eabi/lib/fpu/interwork/libc.a
-arm-none-eabi/lib/fpu/interwork/libg.a
-arm-none-eabi/lib/fpu/interwork/libgloss-linux.a
-arm-none-eabi/lib/fpu/interwork/libm.a
-arm-none-eabi/lib/fpu/interwork/libnosys.a
-arm-none-eabi/lib/fpu/interwork/librdimon.a
-arm-none-eabi/lib/fpu/interwork/librdpmon.a
-arm-none-eabi/lib/fpu/interwork/linux-crt0.o
-arm-none-eabi/lib/fpu/interwork/linux.specs
-arm-none-eabi/lib/fpu/interwork/nano.specs
-arm-none-eabi/lib/fpu/interwork/nosys.specs
-arm-none-eabi/lib/fpu/interwork/pid.specs
-arm-none-eabi/lib/fpu/interwork/rdimon-crt0.o
-arm-none-eabi/lib/fpu/interwork/rdimon.specs
-arm-none-eabi/lib/fpu/interwork/rdpmon-crt0.o
-arm-none-eabi/lib/fpu/interwork/rdpmon.specs
-arm-none-eabi/lib/fpu/interwork/redboot-crt0.o
-arm-none-eabi/lib/fpu/interwork/redboot-syscalls.o
-arm-none-eabi/lib/fpu/interwork/redboot.ld
-arm-none-eabi/lib/fpu/interwork/redboot.specs
-arm-none-eabi/lib/fpu/iq80310.specs
-arm-none-eabi/lib/fpu/libc.a
-arm-none-eabi/lib/fpu/libg.a
-arm-none-eabi/lib/fpu/libgloss-linux.a
-arm-none-eabi/lib/fpu/libm.a
-arm-none-eabi/lib/fpu/libnosys.a
-arm-none-eabi/lib/fpu/librdimon.a
-arm-none-eabi/lib/fpu/librdpmon.a
-arm-none-eabi/lib/fpu/linux-crt0.o
-arm-none-eabi/lib/fpu/linux.specs
-arm-none-eabi/lib/fpu/nano.specs
-arm-none-eabi/lib/fpu/nosys.specs
-arm-none-eabi/lib/fpu/pid.specs
-arm-none-eabi/lib/fpu/rdimon-crt0.o
-arm-none-eabi/lib/fpu/rdimon.specs
-arm-none-eabi/lib/fpu/rdpmon-crt0.o
-arm-none-eabi/lib/fpu/rdpmon.specs
-arm-none-eabi/lib/fpu/redboot-crt0.o
-arm-none-eabi/lib/fpu/redboot-syscalls.o
-arm-none-eabi/lib/fpu/redboot.ld
-arm-none-eabi/lib/fpu/redboot.specs
-arm-none-eabi/lib/interwork/
-arm-none-eabi/lib/interwork/aprofile-validation.specs
-arm-none-eabi/lib/interwork/aprofile-ve.specs
-arm-none-eabi/lib/interwork/cpu-init/
-arm-none-eabi/lib/interwork/cpu-init/rdimon-aem.o
-arm-none-eabi/lib/interwork/crt0.o
-arm-none-eabi/lib/interwork/iq80310.specs
-arm-none-eabi/lib/interwork/libc.a
-arm-none-eabi/lib/interwork/libg.a
-arm-none-eabi/lib/interwork/libgloss-linux.a
-arm-none-eabi/lib/interwork/libm.a
-arm-none-eabi/lib/interwork/libnosys.a
-arm-none-eabi/lib/interwork/librdimon.a
-arm-none-eabi/lib/interwork/librdpmon.a
-arm-none-eabi/lib/interwork/linux-crt0.o
-arm-none-eabi/lib/interwork/linux.specs
-arm-none-eabi/lib/interwork/nano.specs
-arm-none-eabi/lib/interwork/nosys.specs
-arm-none-eabi/lib/interwork/pid.specs
-arm-none-eabi/lib/interwork/rdimon-crt0.o
-arm-none-eabi/lib/interwork/rdimon.specs
-arm-none-eabi/lib/interwork/rdpmon-crt0.o
-arm-none-eabi/lib/interwork/rdpmon.specs
-arm-none-eabi/lib/interwork/redboot-crt0.o
-arm-none-eabi/lib/interwork/redboot-syscalls.o
-arm-none-eabi/lib/interwork/redboot.ld
-arm-none-eabi/lib/interwork/redboot.specs
+arm-none-eabi/lib/hard/
+arm-none-eabi/lib/hard/aprofile-validation.specs
+arm-none-eabi/lib/hard/aprofile-ve.specs
+arm-none-eabi/lib/hard/cpu-init/
+arm-none-eabi/lib/hard/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/hard/crt0.o
+arm-none-eabi/lib/hard/iq80310.specs
+@static-lib arm-none-eabi/lib/hard/libc.a
+@static-lib arm-none-eabi/lib/hard/libg.a
+@static-lib arm-none-eabi/lib/hard/libgloss-linux.a
+@static-lib arm-none-eabi/lib/hard/libm.a
+@static-lib arm-none-eabi/lib/hard/libnosys.a
+@static-lib arm-none-eabi/lib/hard/librdimon.a
+@static-lib arm-none-eabi/lib/hard/librdpmon.a
+arm-none-eabi/lib/hard/linux-crt0.o
+arm-none-eabi/lib/hard/linux.specs
+arm-none-eabi/lib/hard/nano.specs
+arm-none-eabi/lib/hard/nosys.specs
+arm-none-eabi/lib/hard/pid.specs
+arm-none-eabi/lib/hard/rdimon-crt0.o
+arm-none-eabi/lib/hard/rdimon.specs
+arm-none-eabi/lib/hard/rdpmon-crt0.o
+arm-none-eabi/lib/hard/rdpmon.specs
+arm-none-eabi/lib/hard/redboot-crt0.o
+arm-none-eabi/lib/hard/redboot-syscalls.o
+arm-none-eabi/lib/hard/redboot.ld
+arm-none-eabi/lib/hard/redboot.specs
 arm-none-eabi/lib/iq80310.specs
-arm-none-eabi/lib/libc.a
-arm-none-eabi/lib/libg.a
-arm-none-eabi/lib/libgloss-linux.a
-arm-none-eabi/lib/libm.a
-arm-none-eabi/lib/libnosys.a
-arm-none-eabi/lib/librdimon.a
-arm-none-eabi/lib/librdpmon.a
+@static-lib arm-none-eabi/lib/libc.a
+@static-lib arm-none-eabi/lib/libg.a
+@static-lib arm-none-eabi/lib/libgloss-linux.a
+@static-lib arm-none-eabi/lib/libm.a
+@static-lib arm-none-eabi/lib/libnosys.a
+@static-lib arm-none-eabi/lib/librdimon.a
+@static-lib arm-none-eabi/lib/librdpmon.a
 arm-none-eabi/lib/linux-crt0.o
 arm-none-eabi/lib/linux.specs
 arm-none-eabi/lib/nano.specs
@@ -221,41 +167,14 @@ arm-none-eabi/lib/thumb/aprofile-ve.specs
 arm-none-eabi/lib/thumb/cpu-init/
 arm-none-eabi/lib/thumb/cpu-init/rdimon-aem.o
 arm-none-eabi/lib/thumb/crt0.o
-arm-none-eabi/lib/thumb/interwork/
-arm-none-eabi/lib/thumb/interwork/aprofile-validation.specs
-arm-none-eabi/lib/thumb/interwork/aprofile-ve.specs
-arm-none-eabi/lib/thumb/interwork/cpu-init/
-arm-none-eabi/lib/thumb/interwork/cpu-init/rdimon-aem.o
-arm-none-eabi/lib/thumb/interwork/crt0.o
-arm-none-eabi/lib/thumb/interwork/iq80310.specs
-arm-none-eabi/lib/thumb/interwork/libc.a
-arm-none-eabi/lib/thumb/interwork/libg.a
-arm-none-eabi/lib/thumb/interwork/libgloss-linux.a
-arm-none-eabi/lib/thumb/interwork/libm.a
-arm-none-eabi/lib/thumb/interwork/libnosys.a
-arm-none-eabi/lib/thumb/interwork/librdimon.a
-arm-none-eabi/lib/thumb/interwork/librdpmon.a
-arm-none-eabi/lib/thumb/interwork/linux-crt0.o
-arm-none-eabi/lib/thumb/interwork/linux.specs
-arm-none-eabi/lib/thumb/interwork/nano.specs
-arm-none-eabi/lib/thumb/interwork/nosys.specs
-arm-none-eabi/lib/thumb/interwork/pid.specs
-arm-none-eabi/lib/thumb/interwork/rdimon-crt0.o
-arm-none-eabi/lib/thumb/interwork/rdimon.specs
-arm-none-eabi/lib/thumb/interwork/rdpmon-crt0.o
-arm-none-eabi/lib/thumb/interwork/rdpmon.specs
-arm-none-eabi/lib/thumb/interwork/redboot-crt0.o
-arm-none-eabi/lib/thumb/interwork/redboot-syscalls.o
-arm-none-eabi/lib/thumb/interwork/redboot.ld
-arm-none-eabi/lib/thumb/interwork/redboot.specs
 arm-none-eabi/lib/thumb/iq80310.specs
-arm-none-eabi/lib/thumb/libc.a
-arm-none-eabi/lib/thumb/libg.a
-arm-none-eabi/lib/thumb/libgloss-linux.a
-arm-none-eabi/lib/thumb/libm.a
-arm-none-eabi/lib/thumb/libnosys.a
-arm-none-eabi/lib/thumb/librdimon.a
-arm-none-eabi/lib/thumb/librdpmon.a
+@static-lib arm-none-eabi/lib/thumb/libc.a
+@static-lib arm-none-eabi/lib/thumb/libg.a
+@static-lib arm-none-eabi/lib/thumb/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/libm.a
+@static-lib arm-none-eabi/lib/thumb/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/librdpmon.a
 arm-none-eabi/lib/thumb/linux-crt0.o
 arm-none-eabi/lib/thumb/linux.specs
 arm-none-eabi/lib/thumb/nano.specs
@@ -269,6 +188,498 @@ arm-none-eabi/lib/thumb/redboot-crt0.o
 arm-none-eabi/lib/thumb/redboot-syscalls.o
 arm-none-eabi/lib/thumb/redboot.ld
 arm-none-eabi/lib/thumb/redboot.specs
+arm-none-eabi/lib/thumb/v6-m/
+arm-none-eabi/lib/thumb/v6-m/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v6-m/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v6-m/cpu-init/
+arm-none-eabi/lib/thumb/v6-m/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v6-m/crt0.o
+arm-none-eabi/lib/thumb/v6-m/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v6-m/libc.a
+@static-lib arm-none-eabi/lib/thumb/v6-m/libg.a
+@static-lib arm-none-eabi/lib/thumb/v6-m/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v6-m/libm.a
+@static-lib arm-none-eabi/lib/thumb/v6-m/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v6-m/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v6-m/librdpmon.a
+arm-none-eabi/lib/thumb/v6-m/linux-crt0.o
+arm-none-eabi/lib/thumb/v6-m/linux.specs
+arm-none-eabi/lib/thumb/v6-m/nano.specs
+arm-none-eabi/lib/thumb/v6-m/nosys.specs
+arm-none-eabi/lib/thumb/v6-m/pid.specs
+arm-none-eabi/lib/thumb/v6-m/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v6-m/rdimon.specs
+arm-none-eabi/lib/thumb/v6-m/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v6-m/rdpmon.specs
+arm-none-eabi/lib/thumb/v6-m/redboot-crt0.o
+arm-none-eabi/lib/thumb/v6-m/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v6-m/redboot.ld
+arm-none-eabi/lib/thumb/v6-m/redboot.specs
+arm-none-eabi/lib/thumb/v7-ar/
+arm-none-eabi/lib/thumb/v7-ar/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v7-ar/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v7-ar/cpu-init/
+arm-none-eabi/lib/thumb/v7-ar/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v7-ar/crt0.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/cpu-init/
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/crt0.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/libc.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/libg.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/libm.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/librdpmon.a
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/linux-crt0.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/linux.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/nano.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/nosys.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/pid.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/rdimon.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/rdpmon.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/redboot-crt0.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/redboot.ld
+arm-none-eabi/lib/thumb/v7-ar/fpv3/hard/redboot.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/cpu-init/
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/crt0.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/libc.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/libg.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/libm.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/librdpmon.a
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/linux-crt0.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/linux.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/nano.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/nosys.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/pid.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/rdimon.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/rdpmon.specs
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/redboot-crt0.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/redboot.ld
+arm-none-eabi/lib/thumb/v7-ar/fpv3/softfp/redboot.specs
+arm-none-eabi/lib/thumb/v7-ar/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v7-ar/libc.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/libg.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/libm.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v7-ar/librdpmon.a
+arm-none-eabi/lib/thumb/v7-ar/linux-crt0.o
+arm-none-eabi/lib/thumb/v7-ar/linux.specs
+arm-none-eabi/lib/thumb/v7-ar/nano.specs
+arm-none-eabi/lib/thumb/v7-ar/nosys.specs
+arm-none-eabi/lib/thumb/v7-ar/pid.specs
+arm-none-eabi/lib/thumb/v7-ar/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v7-ar/rdimon.specs
+arm-none-eabi/lib/thumb/v7-ar/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v7-ar/rdpmon.specs
+arm-none-eabi/lib/thumb/v7-ar/redboot-crt0.o
+arm-none-eabi/lib/thumb/v7-ar/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v7-ar/redboot.ld
+arm-none-eabi/lib/thumb/v7-ar/redboot.specs
+arm-none-eabi/lib/thumb/v7-m/
+arm-none-eabi/lib/thumb/v7-m/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v7-m/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v7-m/cpu-init/
+arm-none-eabi/lib/thumb/v7-m/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v7-m/crt0.o
+arm-none-eabi/lib/thumb/v7-m/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v7-m/libc.a
+@static-lib arm-none-eabi/lib/thumb/v7-m/libg.a
+@static-lib arm-none-eabi/lib/thumb/v7-m/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v7-m/libm.a
+@static-lib arm-none-eabi/lib/thumb/v7-m/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v7-m/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v7-m/librdpmon.a
+arm-none-eabi/lib/thumb/v7-m/linux-crt0.o
+arm-none-eabi/lib/thumb/v7-m/linux.specs
+arm-none-eabi/lib/thumb/v7-m/nano.specs
+arm-none-eabi/lib/thumb/v7-m/nosys.specs
+arm-none-eabi/lib/thumb/v7-m/pid.specs
+arm-none-eabi/lib/thumb/v7-m/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v7-m/rdimon.specs
+arm-none-eabi/lib/thumb/v7-m/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v7-m/rdpmon.specs
+arm-none-eabi/lib/thumb/v7-m/redboot-crt0.o
+arm-none-eabi/lib/thumb/v7-m/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v7-m/redboot.ld
+arm-none-eabi/lib/thumb/v7-m/redboot.specs
+arm-none-eabi/lib/thumb/v7e-m/
+arm-none-eabi/lib/thumb/v7e-m/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v7e-m/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v7e-m/cpu-init/
+arm-none-eabi/lib/thumb/v7e-m/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v7e-m/crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/cpu-init/
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libm.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/librdpmon.a
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/linux-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/linux.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/nano.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/nosys.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/pid.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/rdimon.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/rdpmon.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/redboot-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/redboot.ld
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/redboot.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/cpu-init/
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libg.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libm.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/librdpmon.a
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/linux-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/linux.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/nano.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/nosys.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/pid.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/rdimon.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/rdpmon.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/redboot-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/redboot.ld
+arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/redboot.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/cpu-init/
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/libc.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/libg.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/libm.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/librdpmon.a
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/linux-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/linux.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/nano.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/nosys.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/pid.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/rdimon.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/rdpmon.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/redboot-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/redboot.ld
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/hard/redboot.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/cpu-init/
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/libc.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/libg.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/libm.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/librdpmon.a
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/linux-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/linux.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/nano.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/nosys.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/pid.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/rdimon.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/rdpmon.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/redboot-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/redboot.ld
+arm-none-eabi/lib/thumb/v7e-m/fpv5-sp/softfp/redboot.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/cpu-init/
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/libc.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/libg.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/libm.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/librdpmon.a
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/linux-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/linux.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/nano.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/nosys.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/pid.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/rdimon.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/rdpmon.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/redboot-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/redboot.ld
+arm-none-eabi/lib/thumb/v7e-m/fpv5/hard/redboot.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/cpu-init/
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/libc.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/libg.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/libm.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/librdpmon.a
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/linux-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/linux.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/nano.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/nosys.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/pid.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/rdimon.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/rdpmon.specs
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/redboot-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/redboot.ld
+arm-none-eabi/lib/thumb/v7e-m/fpv5/softfp/redboot.specs
+arm-none-eabi/lib/thumb/v7e-m/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v7e-m/libc.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/libg.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/libm.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v7e-m/librdpmon.a
+arm-none-eabi/lib/thumb/v7e-m/linux-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/linux.specs
+arm-none-eabi/lib/thumb/v7e-m/nano.specs
+arm-none-eabi/lib/thumb/v7e-m/nosys.specs
+arm-none-eabi/lib/thumb/v7e-m/pid.specs
+arm-none-eabi/lib/thumb/v7e-m/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/rdimon.specs
+arm-none-eabi/lib/thumb/v7e-m/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/rdpmon.specs
+arm-none-eabi/lib/thumb/v7e-m/redboot-crt0.o
+arm-none-eabi/lib/thumb/v7e-m/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v7e-m/redboot.ld
+arm-none-eabi/lib/thumb/v7e-m/redboot.specs
+arm-none-eabi/lib/thumb/v8-m.base/
+arm-none-eabi/lib/thumb/v8-m.base/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v8-m.base/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v8-m.base/cpu-init/
+arm-none-eabi/lib/thumb/v8-m.base/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v8-m.base/crt0.o
+arm-none-eabi/lib/thumb/v8-m.base/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v8-m.base/libc.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.base/libg.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.base/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.base/libm.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.base/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.base/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.base/librdpmon.a
+arm-none-eabi/lib/thumb/v8-m.base/linux-crt0.o
+arm-none-eabi/lib/thumb/v8-m.base/linux.specs
+arm-none-eabi/lib/thumb/v8-m.base/nano.specs
+arm-none-eabi/lib/thumb/v8-m.base/nosys.specs
+arm-none-eabi/lib/thumb/v8-m.base/pid.specs
+arm-none-eabi/lib/thumb/v8-m.base/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v8-m.base/rdimon.specs
+arm-none-eabi/lib/thumb/v8-m.base/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v8-m.base/rdpmon.specs
+arm-none-eabi/lib/thumb/v8-m.base/redboot-crt0.o
+arm-none-eabi/lib/thumb/v8-m.base/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v8-m.base/redboot.ld
+arm-none-eabi/lib/thumb/v8-m.base/redboot.specs
+arm-none-eabi/lib/thumb/v8-m.main/
+arm-none-eabi/lib/thumb/v8-m.main/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v8-m.main/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v8-m.main/cpu-init/
+arm-none-eabi/lib/thumb/v8-m.main/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v8-m.main/crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/cpu-init/
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libg.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libm.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/librdpmon.a
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/linux-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/linux.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/nano.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/nosys.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/pid.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/rdimon.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/rdpmon.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/redboot-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/redboot.ld
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/redboot.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/cpu-init/
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/libc.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/libg.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/libm.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/librdpmon.a
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/linux-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/linux.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/nano.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/nosys.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/pid.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/rdimon.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/rdpmon.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/redboot-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/redboot.ld
+arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/softfp/redboot.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/cpu-init/
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/libc.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/libg.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/libm.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/librdpmon.a
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/linux-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/linux.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/nano.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/nosys.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/pid.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/rdimon.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/rdpmon.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/redboot-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/redboot.ld
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/hard/redboot.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/aprofile-validation.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/aprofile-ve.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/cpu-init/
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/cpu-init/rdimon-aem.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/libc.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/libg.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/libm.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/librdpmon.a
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/linux-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/linux.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/nano.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/nosys.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/pid.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/rdimon.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/rdpmon.specs
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/redboot-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/redboot.ld
+arm-none-eabi/lib/thumb/v8-m.main/fpv5/softfp/redboot.specs
+arm-none-eabi/lib/thumb/v8-m.main/iq80310.specs
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/libc.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/libg.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/libgloss-linux.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/libm.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/libnosys.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/librdimon.a
+@static-lib arm-none-eabi/lib/thumb/v8-m.main/librdpmon.a
+arm-none-eabi/lib/thumb/v8-m.main/linux-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/linux.specs
+arm-none-eabi/lib/thumb/v8-m.main/nano.specs
+arm-none-eabi/lib/thumb/v8-m.main/nosys.specs
+arm-none-eabi/lib/thumb/v8-m.main/pid.specs
+arm-none-eabi/lib/thumb/v8-m.main/rdimon-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/rdimon.specs
+arm-none-eabi/lib/thumb/v8-m.main/rdpmon-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/rdpmon.specs
+arm-none-eabi/lib/thumb/v8-m.main/redboot-crt0.o
+arm-none-eabi/lib/thumb/v8-m.main/redboot-syscalls.o
+arm-none-eabi/lib/thumb/v8-m.main/redboot.ld
+arm-none-eabi/lib/thumb/v8-m.main/redboot.specs
 share/doc/arm-none-eabi/
 share/doc/arm-none-eabi/newlib/
 share/doc/arm-none-eabi/newlib/COPYING.NEWLIB

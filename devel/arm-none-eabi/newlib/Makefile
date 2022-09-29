@@ -5,7 +5,7 @@ COMMENT=	newlib for arm-none-eabi cross-development
 DISTNAME=	newlib-2.2.0-1
 VERSION=	2.2.0.1
 PKGNAME=	${CONFIG}-newlib-${VERSION}
-REVISION=	1
+REVISION=	2
 
 MAKE_ENV+=	${CONFIGURE_ENV}
 
